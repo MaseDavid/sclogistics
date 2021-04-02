@@ -1,0 +1,105 @@
+.wrapper{
+    border: 3px solid black;
+    padding: 1em;
+    width: 400px;
+}
+
+.content{
+    background: linear-gradient(to right,#154B87, #1470DB  );
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 30px;
+}
+.s{
+    margin: 59px 70px 2px 60px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.l{
+    margin-bottom:2px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.names{
+    display: flex;
+}
+
+.form{
+    justify-content: space-between;
+    background: #ffff;
+    height: 472px;
+    width: 370px;
+   
+    margin-bottom: 27px;
+    border-radius: 80px 0 0 0;
+    padding-top: 36px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+}
+
+
+
+#Email , #password , #mobileNumber{
+    width: 327px;
+    height: 49px;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25%;
+    margin-right: 25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+  }
+  
+.btn{
+    background: linear-gradient(to right,  #154B87 , #1470DB);
+    width: 328px;
+    height: 50px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+ .btn > a {
+    color: #ffff;
+    font-weight: 700;
+ }
+.fab{
+    background: #ECECEC;
+    border-radius: 50px;
+}
+
+footer{
+    margin-top: 160px;
+}
+footer > p{
+    color: #1470DB;
+    font-size: 12px;
+    width: 89px;
+    height: 15px;
+    margin: 74px 135px 7px 135px;
+}
+
+footer > .fa-google {
+    background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  margin: 7px 50px 61px 23px;
+  padding: 16px;
+}
+
+footer > .fa-facebook-f{
+   
+    color:#0B54F3; 
+}

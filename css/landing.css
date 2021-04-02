@@ -1,0 +1,29 @@
+.wrapper{
+    border: 3px solid black;
+    padding: 2em;
+}
+
+.landing{
+    background-color: rgba(20, 112, 219, 0.46); 
+    height:640px ;
+    max-width: 360px;
+    border-radius: 15px;
+    background-image: url(https://res.cloudinary.com/dhqshvgzy/image/upload/v1615239703/city_1_mlqr4d.png);
+    background-position: center;
+    font-size: 196px;
+}
+.image{
+    width: 90px;
+    margin-top: 240px ;
+    margin-left: 116px;
+    margin-right: 120px;
+}
+
+p{
+    color: white ;
+    margin-left: 116px;
+    margin-bottom: 279px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
